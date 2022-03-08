@@ -1,0 +1,4 @@
+START report: Tue Mar  8 16:34:51 2022 
+** Warning: (eldo-1615)  In file "./rlc_default.cir" line 15:
++   COMMAND ".TRAN": TPRINT can not be <= 0.0.
++   It is set to TSTOP/20.0 = 5.000e-09 s.

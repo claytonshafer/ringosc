@@ -1,0 +1,79 @@
+A 5 u mgc_sheet 62262dd2a8aa.03.0a.ec.43.56.00.59.fd 27 2 47 0
+V v 25 4 6227c8861455.03.0a.ec.43.56.00.35.5c
+F f 25 "sheet1.ssht_25"
+F f 25 "sheet1.sgfx_25"
+F o 0 ""
+F o 0 ""
+V v 26 4 6227c8c321f1.03.0a.ec.43.56.00.35.5c
+F f 26 "sheet1.ssht_26"
+F f 26 "sheet1.sgfx_26"
+F o 0 ""
+F o 0 ""
+V v 27 4 6227cbf53ecf.03.0a.ec.43.56.00.35.5c
+F f 27 "sheet1.ssht_27"
+F f 27 "sheet1.sgfx_27"
+F o 0 ""
+F o 0 ""
+O 27
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PROJ/ringosc/rlc/schematic" 1 mgc_schematic 62262dd28f26.03.0a.ec.43.56.01.59.fd 62262dd28f26.03.0a.ec.43.56.00.59.fd
+R csduv 9 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 2 Eddm_part 4a53bf83556a.03.93.22.29.5e.00.6e.e2 3890a962031f.03.86.56.31.70.01.34.72
+R csduv 10 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R csduv 13 "$MGC_IC_GENERIC_LIB/vss/part" 1 Eddm_part 3db48db938fb.03.93.22.29.75.00.29.26 3db48db938f9.03.93.22.29.75.00.29.26
+R csduv 14 "$MGC_IC_GENERIC_LIB/vss/vss" 1 mgc_symbol 3db48db941cf.03.93.22.29.75.00.29.26 3db48db941ce.03.93.22.29.75.00.29.26
+R csduv 21 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 22 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 35 "$MGC_IC_DEVICE_LIB/inductor/part" 6 Eddm_part 52ce4074f0e9.03.89.ca.95.24.00.53.d4 3900e8d57bc7.03.93.22.22.60.00.56.1b
+R csduv 36 "$MGC_IC_DEVICE_LIB/inductor/inductor" 6 mgc_symbol 52ce4074f0dd.03.89.ca.95.24.00.53.d4 3900e8d57c2b.03.93.22.22.60.00.56.1b
+R csduv 37 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R csduv 38 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
+R csduv 39 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 4 Eddm_part 529f0f9fe60f.03.89.ca.95.24.00.04.60 3900e8d5419c.03.93.22.22.60.00.56.1b
+R csduv 40 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 10 mgc_symbol 529f0f9fe603.03.89.ca.95.24.00.04.60 3900e8d54202.03.93.22.22.60.00.56.1b
+R csduv 41 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R csduv 42 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R csduv 43 "$GDKGATES/inv01/part" 3 Eddm_part 503d52b54dca.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.08.7e.63
+R csduv 44 "$GDKGATES/inv01/inv01" 10 mgc_symbol 503d52b54db4.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.06.7e.63
+R csduv 45 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 46 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+O 26
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PROJ/ringosc/rlc/schematic" 1 mgc_schematic 62262dd28f26.03.0a.ec.43.56.01.59.fd 62262dd28f26.03.0a.ec.43.56.00.59.fd
+R csduv 9 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 2 Eddm_part 4a53bf83556a.03.93.22.29.5e.00.6e.e2 3890a962031f.03.86.56.31.70.01.34.72
+R csduv 10 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R csduv 13 "$MGC_IC_GENERIC_LIB/vss/part" 1 Eddm_part 3db48db938fb.03.93.22.29.75.00.29.26 3db48db938f9.03.93.22.29.75.00.29.26
+R csduv 14 "$MGC_IC_GENERIC_LIB/vss/vss" 1 mgc_symbol 3db48db941cf.03.93.22.29.75.00.29.26 3db48db941ce.03.93.22.29.75.00.29.26
+R csduv 21 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 22 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 35 "$MGC_IC_DEVICE_LIB/inductor/part" 6 Eddm_part 52ce4074f0e9.03.89.ca.95.24.00.53.d4 3900e8d57bc7.03.93.22.22.60.00.56.1b
+R csduv 36 "$MGC_IC_DEVICE_LIB/inductor/inductor" 6 mgc_symbol 52ce4074f0dd.03.89.ca.95.24.00.53.d4 3900e8d57c2b.03.93.22.22.60.00.56.1b
+R csduv 37 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R csduv 38 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
+R csduv 39 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 4 Eddm_part 529f0f9fe60f.03.89.ca.95.24.00.04.60 3900e8d5419c.03.93.22.22.60.00.56.1b
+R csduv 40 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 10 mgc_symbol 529f0f9fe603.03.89.ca.95.24.00.04.60 3900e8d54202.03.93.22.22.60.00.56.1b
+R csduv 41 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R csduv 42 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R csduv 43 "$GDKGATES/inv01/part" 3 Eddm_part 503d52b54dca.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.08.7e.63
+R csduv 44 "$GDKGATES/inv01/inv01" 10 mgc_symbol 503d52b54db4.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.06.7e.63
+R csduv 45 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 46 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+O 25
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PROJ/ringosc/rlc/schematic" 1 mgc_schematic 62262dd28f26.03.0a.ec.43.56.01.59.fd 62262dd28f26.03.0a.ec.43.56.00.59.fd
+R csduv 9 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 2 Eddm_part 4a53bf83556a.03.93.22.29.5e.00.6e.e2 3890a962031f.03.86.56.31.70.01.34.72
+R csduv 10 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R csduv 13 "$MGC_IC_GENERIC_LIB/vss/part" 1 Eddm_part 3db48db938fb.03.93.22.29.75.00.29.26 3db48db938f9.03.93.22.29.75.00.29.26
+R csduv 14 "$MGC_IC_GENERIC_LIB/vss/vss" 1 mgc_symbol 3db48db941cf.03.93.22.29.75.00.29.26 3db48db941ce.03.93.22.29.75.00.29.26
+R csduv 21 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 22 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 35 "$MGC_IC_DEVICE_LIB/inductor/part" 6 Eddm_part 52ce4074f0e9.03.89.ca.95.24.00.53.d4 3900e8d57bc7.03.93.22.22.60.00.56.1b
+R csduv 36 "$MGC_IC_DEVICE_LIB/inductor/inductor" 6 mgc_symbol 52ce4074f0dd.03.89.ca.95.24.00.53.d4 3900e8d57c2b.03.93.22.22.60.00.56.1b
+R csduv 37 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R csduv 38 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
+R csduv 39 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 4 Eddm_part 529f0f9fe60f.03.89.ca.95.24.00.04.60 3900e8d5419c.03.93.22.22.60.00.56.1b
+R csduv 40 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 10 mgc_symbol 529f0f9fe603.03.89.ca.95.24.00.04.60 3900e8d54202.03.93.22.22.60.00.56.1b
+R csduv 41 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R csduv 42 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R csduv 43 "$GDKGATES/inv01/part" 3 Eddm_part 503d52b54dca.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.08.7e.63
+R csduv 44 "$GDKGATES/inv01/inv01" 10 mgc_symbol 503d52b54db4.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.06.7e.63
+R csduv 45 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 46 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb

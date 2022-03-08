@@ -1,0 +1,22 @@
+A 5 u Sim_setup_do 6227c5445428.03.0a.ec.43.56.04.2b.a3 15 2 60 0
+V v 13 1 622691181f37.03.0a.ec.43.56.00.16.58
+F f 13 "default.db_13"
+V v 14 1 622691517c66.03.0a.ec.43.56.00.16.58
+F f 14 "default.db_14"
+V v 15 1 622692979621.03.0a.ec.43.56.00.16.58
+F f 15 "default.db_15"
+O 15
+R csdni 56 "$MGC_HOME/shared/pkgs/daicsim/userware/En_na" 1 Mgc_container
+R csduv 57 "$PROJ/ringosc/ringosc/default" 15 Eddm_design_viewpoint 62269141549d.03.0a.ec.43.56.00.16.58 6227c5445428.03.0a.ec.43.56.00.2b.a3
+R csdni 58 "$GENERIC13/models/include_all" 1 Mgc_file
+R csdni 59 "$GENERIC13/models/lib.eldo" 1 Mgc_file
+O 14
+R csdni 52 "$MGC_HOME/shared/pkgs/daicsim/userware/En_na" 1 Mgc_container
+R csduv 53 "$PROJ/ringosc/ringosc/default" 15 Eddm_design_viewpoint 62269141549d.03.0a.ec.43.56.00.16.58 6227c5445428.03.0a.ec.43.56.00.2b.a3
+R csdni 54 "$GENERIC13/models/include_all" 1 Mgc_file
+R csdni 55 "$GENERIC13/models/lib.eldo" 1 Mgc_file
+O 13
+R csdni 48 "$MGC_HOME/shared/pkgs/daicsim/userware/En_na" 1 Mgc_container
+R csduv 49 "$PROJ/ringosc/ringosc/default" 14 Eddm_design_viewpoint 622691038343.03.0a.ec.43.56.00.16.58 6227c5445428.03.0a.ec.43.56.00.2b.a3
+R csdni 50 "$GENERIC13/models/include_all" 1 Mgc_file
+R csdni 51 "$GENERIC13/models/lib.eldo" 1 Mgc_file

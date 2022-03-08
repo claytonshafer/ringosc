@@ -1,0 +1,76 @@
+A 5 u Eddm_design_viewpoint 622632ce95c0.03.0a.ec.43.56.00.67.bf 24 2 255 0
+V v 22 4 6227c8867586.03.0a.ec.43.56.00.35.5c
+F f 22 "default.dvpt_22"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 23 4 6227c8c388a8.03.0a.ec.43.56.00.35.5c
+F f 23 "default.dvpt_23"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 24 4 6227cbf5a3d4.03.0a.ec.43.56.00.35.5c
+F f 24 "default.dvpt_24"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 24
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PROJ/ringosc/rlc/schematic" 27 mgc_schematic 6227cbf5461d.03.0a.ec.43.56.00.35.5c 62262dd28f26.03.0a.ec.43.56.00.59.fd
+R cspuv 1 "$PROJ/ringosc/rlc/part" 2 Eddm_part 622631cc6266.03.0a.ec.43.56.00.67.bf 622631cbf268.03.0a.ec.43.56.00.67.bf
+R cspuv 2 "$PROJ/ringosc/rlc/default/default" 1 Eddm_ba_mgr 622632cea173.03.0a.ec.43.56.01.67.bf 622632cea173.03.0a.ec.43.56.00.67.bf
+R cspuv 7 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 2 Eddm_part 4a53bf83556a.03.93.22.29.5e.00.6e.e2 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 10 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R cspuv 174 "$MGC_IC_DEVICE_LIB/inductor/part" 6 Eddm_part 52ce4074f0e9.03.89.ca.95.24.00.53.d4 3900e8d57bc7.03.93.22.22.60.00.56.1b
+R cspuv 175 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R cspuv 176 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 4 Eddm_part 529f0f9fe60f.03.89.ca.95.24.00.04.60 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 177 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
+R cspuv 178 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 10 mgc_symbol 529f0f9fe603.03.89.ca.95.24.00.04.60 3900e8d54202.03.93.22.22.60.00.56.1b
+R cspuv 179 "$MGC_IC_DEVICE_LIB/inductor/inductor" 6 mgc_symbol 52ce4074f0dd.03.89.ca.95.24.00.53.d4 3900e8d57c2b.03.93.22.22.60.00.56.1b
+R cspuv 198 "$GDKGATES/inv01/part" 3 Eddm_part 503d52b54dca.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.08.7e.63
+R cspuv 199 "$GDKGATES/inv01/schematic" 4 mgc_schematic 50346251d9e9.03.93.22.28.46.00.73.de 503d3cc570cd.03.93.22.28.96.09.7e.63
+R cspuv 200 "$GDKGATES/inv01/inv01" 10 mgc_symbol 503d52b54db4.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.06.7e.63
+R cspuv 209 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+R cspuv 210 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 211 "$GENERIC13/symbols/pmos/pmos" 27 mgc_symbol 4f3c5315ac6d.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.02.11.a3
+R cspuv 212 "$GENERIC13/symbols/nmos/nmos" 41 mgc_symbol 4f3c52ec7400.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0b.11.a3
+O 23
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PROJ/ringosc/rlc/schematic" 26 mgc_schematic 6227c8c328f6.03.0a.ec.43.56.00.35.5c 62262dd28f26.03.0a.ec.43.56.00.59.fd
+R cspuv 1 "$PROJ/ringosc/rlc/part" 2 Eddm_part 622631cc6266.03.0a.ec.43.56.00.67.bf 622631cbf268.03.0a.ec.43.56.00.67.bf
+R cspuv 2 "$PROJ/ringosc/rlc/default/default" 1 Eddm_ba_mgr 622632cea173.03.0a.ec.43.56.01.67.bf 622632cea173.03.0a.ec.43.56.00.67.bf
+R cspuv 7 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 2 Eddm_part 4a53bf83556a.03.93.22.29.5e.00.6e.e2 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 10 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R cspuv 174 "$MGC_IC_DEVICE_LIB/inductor/part" 6 Eddm_part 52ce4074f0e9.03.89.ca.95.24.00.53.d4 3900e8d57bc7.03.93.22.22.60.00.56.1b
+R cspuv 175 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R cspuv 176 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 4 Eddm_part 529f0f9fe60f.03.89.ca.95.24.00.04.60 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 177 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
+R cspuv 178 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 10 mgc_symbol 529f0f9fe603.03.89.ca.95.24.00.04.60 3900e8d54202.03.93.22.22.60.00.56.1b
+R cspuv 179 "$MGC_IC_DEVICE_LIB/inductor/inductor" 6 mgc_symbol 52ce4074f0dd.03.89.ca.95.24.00.53.d4 3900e8d57c2b.03.93.22.22.60.00.56.1b
+R cspuv 198 "$GDKGATES/inv01/part" 3 Eddm_part 503d52b54dca.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.08.7e.63
+R cspuv 199 "$GDKGATES/inv01/schematic" 4 mgc_schematic 50346251d9e9.03.93.22.28.46.00.73.de 503d3cc570cd.03.93.22.28.96.09.7e.63
+R cspuv 200 "$GDKGATES/inv01/inv01" 10 mgc_symbol 503d52b54db4.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.06.7e.63
+R cspuv 209 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+R cspuv 210 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 211 "$GENERIC13/symbols/pmos/pmos" 27 mgc_symbol 4f3c5315ac6d.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.02.11.a3
+R cspuv 212 "$GENERIC13/symbols/nmos/nmos" 41 mgc_symbol 4f3c52ec7400.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0b.11.a3
+O 22
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PROJ/ringosc/rlc/schematic" 25 mgc_schematic 6227c8861b3e.03.0a.ec.43.56.00.35.5c 62262dd28f26.03.0a.ec.43.56.00.59.fd
+R cspuv 1 "$PROJ/ringosc/rlc/part" 2 Eddm_part 622631cc6266.03.0a.ec.43.56.00.67.bf 622631cbf268.03.0a.ec.43.56.00.67.bf
+R cspuv 2 "$PROJ/ringosc/rlc/default/default" 1 Eddm_ba_mgr 622632cea173.03.0a.ec.43.56.01.67.bf 622632cea173.03.0a.ec.43.56.00.67.bf
+R cspuv 7 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 2 Eddm_part 4a53bf83556a.03.93.22.29.5e.00.6e.e2 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 10 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R cspuv 174 "$MGC_IC_DEVICE_LIB/inductor/part" 6 Eddm_part 52ce4074f0e9.03.89.ca.95.24.00.53.d4 3900e8d57bc7.03.93.22.22.60.00.56.1b
+R cspuv 175 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R cspuv 176 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 4 Eddm_part 529f0f9fe60f.03.89.ca.95.24.00.04.60 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 177 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
+R cspuv 178 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 10 mgc_symbol 529f0f9fe603.03.89.ca.95.24.00.04.60 3900e8d54202.03.93.22.22.60.00.56.1b
+R cspuv 179 "$MGC_IC_DEVICE_LIB/inductor/inductor" 6 mgc_symbol 52ce4074f0dd.03.89.ca.95.24.00.53.d4 3900e8d57c2b.03.93.22.22.60.00.56.1b
+R cspuv 198 "$GDKGATES/inv01/part" 3 Eddm_part 503d52b54dca.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.08.7e.63
+R cspuv 199 "$GDKGATES/inv01/schematic" 4 mgc_schematic 50346251d9e9.03.93.22.28.46.00.73.de 503d3cc570cd.03.93.22.28.96.09.7e.63
+R cspuv 200 "$GDKGATES/inv01/inv01" 10 mgc_symbol 503d52b54db4.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.06.7e.63
+R cspuv 209 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+R cspuv 210 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 211 "$GENERIC13/symbols/pmos/pmos" 27 mgc_symbol 4f3c5315ac6d.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.02.11.a3
+R cspuv 212 "$GENERIC13/symbols/nmos/nmos" 41 mgc_symbol 4f3c52ec7400.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0b.11.a3

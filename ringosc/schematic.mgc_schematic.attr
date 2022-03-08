@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 6227c5445428.03.0a.ec.43.56.01.2b.a3 17 2 1 0
+V v 15 1 622691032eae.03.0a.ec.43.56.00.16.58
+F o 0 ""
+V v 16 1 6226914103a5.03.0a.ec.43.56.00.16.58
+F o 0 ""
+V v 17 1 622691b7764b.03.0a.ec.43.56.00.16.58
+F o 0 ""
+O 17
+R cspuv 0 "$PROJ/ringosc/ringosc/schematic/sheet1" 17 mgc_sheet 622691b76fd2.03.0a.ec.43.56.00.16.58 6227c5445428.03.0a.ec.43.56.1d.2b.a3
+O 16
+R cspuv 0 "$PROJ/ringosc/ringosc/schematic/sheet1" 16 mgc_sheet 62269140f178.03.0a.ec.43.56.00.16.58 6227c5445428.03.0a.ec.43.56.1d.2b.a3
+O 15
+R cspuv 0 "$PROJ/ringosc/ringosc/schematic/sheet1" 15 mgc_sheet 622691032793.03.0a.ec.43.56.00.16.58 6227c5445428.03.0a.ec.43.56.1d.2b.a3

@@ -1,0 +1,32 @@
+* ELDO netlist generated with ICnet by 'cms156' on Mon Mar  7 2022 at 18:15:01
+
+.CONNECT GROUND 0
+
+*
+* Globals.
+*
+.global GROUND VSS VDD
+
+*
+* Component pathname : $GDKGATES/inv01
+*
+.subckt INV01  Y A VDD_ESC1 VSS_ESC2
+
+        MP1 Y A VDD_ESC1 VDD_ESC1 pmos w=0.77u l=0.14u m=1 as=0.2618p ad=0.2618p
++  ps=1.45u pd=1.45u
+        MN1 Y A VSS_ESC2 VSS_ESC2 nmos w=0.35u l=0.14u m=1 as=0.119p ad=0.119p
++  ps=1.03u pd=1.03u
+.ends INV01
+
+*
+* MAIN CELL: Component pathname : $PROJ/ringosc/rlc
+*
+        V2 VSS GROUND DC 0V
+        V1 VDD GROUND DC 5V
+        X_INV014 N$23 N$6 VDD VSS INV01
+        X_INV015 OUT N$23 VDD VSS INV01
+        X_INV013 N$6 N$4 VDD VSS INV01
+        X_INV012 N$4 N$2 VDD VSS INV01
+        X_INV011 N$2 OUT VDD VSS INV01
+*
+.end

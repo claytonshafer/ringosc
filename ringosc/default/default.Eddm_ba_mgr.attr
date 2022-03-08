@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 6227c5445428.03.0a.ec.43.56.05.2b.a3 1 2 1 0
+V v 1 1 622632cea173.03.0a.ec.43.56.01.67.bf
+F f 1 "default.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PROJ/ringosc/ringosc/default" 1 Eddm_design_viewpoint 622632ce95c0.03.0a.ec.43.56.01.67.bf 6227c5445428.03.0a.ec.43.56.00.2b.a3

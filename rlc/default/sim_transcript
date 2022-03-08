@@ -1,0 +1,173 @@
+
+Running eldo on vlsi01.egr.duke.edu
+with Eldo libraries :
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldoudm_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldomos1_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldoekv_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldomosp9_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldocsem_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldomos2_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldomos3_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldobip_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldodio_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldojfet_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldosoi_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldomos4_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldoasitft_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldohisim_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldospmod_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldopsp_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldomosvar_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldolegtft_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldomoto_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldost_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldobnr_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldorockw_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldopubhicum_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldotftsh_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldobta_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldofas_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldofascm_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldosdsim_64.so
+/home/software/mentor-2015/ams-13.2/aol/lib/libeldowire_64.so
+Unable to load VerilogA library libogr_64.so,
+
+
+
+Copyright 1988 Mentor Graphics Corporation
+All Rights Reserved
+
+THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY
+INFORMATION WHICH ARE THE PROPERTY OF MENTOR
+GRAPHICS CORPORATION OR ITS LICENSORS AND IS
+SUBJECT TO LICENSE TERMS.
+
+
+
+***** SYSTEM INFORMATION ...
+
+*** User  : cms156@vlsi01.egr.duke.edu
+*** OS    : \S [VCO = aol]
+*** CPU   :
+    Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz
+    Number of physical processors     : 1
+    Hyper-Threading Technology        : disabled
+    Number of cpu cores               : 4
+    Number of logical processors      : 4
+*** Freq  : 2494.940MHz
+*** Cache : 6144 KB
+*** MEM   : 3834872 kB
+*** Date  : Tue Mar  8 16:34:51 2022
+
+
+***** PRE-PROCESSING ...
+
+
+***** ANALYSIS ....
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+***** GENERATION ...
+
+Warning 1615: In file "./rlc_default.cir" line 15:
++   COMMAND ".TRAN": TPRINT can not be <= 0.0.
++   It is set to TSTOP/20.0 = 5.000e-09 s.
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (MB):    256
+14 elements
+8 nodes
+2 input signals
+
+***> Parsing CPU TIME 0h 0mn 0s 050ms <***
+
+
+Eldo VERSION : ELDO 13.2 (64 bits) Wed Feb 12 16:51:08 GMT 2014
+
+*** DATE:  8-Mar-2022 16:34:51
+
+*** TITLE: * Component: $PROJ/ringosc/rlc Viewpoint: default
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=7.500000e-04
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost vlsi01.egr.duke.edu -jwdbport 36175
+
+Compute from 0.000000 Nano to 100.000000 Nano
+................................................
+Simulation progress                : 10% (t = 10.0012 N)
+Elapsed CPU time                   :  0h  0mn  0s 390   ( 0h  0mn  0s 390)
+CPU Usage                          :  96%               ( 96%)
+................................................
+Simulation progress                : 20% (t = 19.9991 N)
+Elapsed CPU time                   :  0h  0mn  0s 370   ( 0h  0mn  0s 760)
+CPU Usage                          :  94%               ( 95%)
+................................................
+Simulation progress                : 30% (t = 29.9984 N)
+Elapsed CPU time                   :  0h  0mn  0s 370   ( 0h  0mn  1s 130)
+CPU Usage                          :  93%               ( 94%)
+................................................
+Simulation progress                : 40% (t = 39.9991 N)
+Elapsed CPU time                   :  0h  0mn  0s 410   ( 0h  0mn  1s 540)
+CPU Usage                          :  96%               ( 95%)
+................................................
+Simulation progress                : 50% (t = 50.0023 N)
+Elapsed CPU time                   :  0h  0mn  0s 360   ( 0h  0mn  1s 900)
+CPU Usage                          :  93%               ( 95%)
+................................................
+Simulation progress                : 60% (t = 60.0006 N)
+Elapsed CPU time                   :  0h  0mn  0s 420   ( 0h  0mn  2s 320)
+CPU Usage                          :  93%               ( 94%)
+................................................
+Simulation progress                : 70% (t = 69.9990 N)
+Elapsed CPU time                   :  0h  0mn  0s 370   ( 0h  0mn  2s 690)
+CPU Usage                          :  94%               ( 94%)
+................................................
+Simulation progress                : 80% (t = 80.0013 N)
+Elapsed CPU time                   :  0h  0mn  0s 370   ( 0h  0mn  3s  60)
+CPU Usage                          :  95%               ( 94%)
+................................................
+Simulation progress                : 90% (t = 89.9992 N)
+Elapsed CPU time                   :  0h  0mn  0s 380   ( 0h  0mn  3s 440)
+CPU Usage                          :  95%               ( 95%)
+................................................
+Simulation progress                : 100% (t = 100.0000 N)
+Elapsed CPU time                   :  0h  0mn  0s 370   ( 0h  0mn  3s 810)
+CPU Usage                          :  94%               ( 95%)
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in Mbytes    261
+Latency: 0.000000%
+average number of newton iterations: 3.007008
+nb of components: 14
+nb of nodes: 28
+nb of MOS or BIP calls: 788216
+Number of steps computed: 29392
+
+***>CPU TIME 3s 810ms <***
+
+***>MESSAGE SUMMARY: 1 warning
+
+***>GLOBAL CPU TIME 3s 870ms <***
+
+
+***>GLOBAL ELAPSED TIME 5s <***
+

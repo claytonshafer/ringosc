@@ -1,0 +1,49 @@
+// Registration file '/home/ece539/fall2021/cms156/Pyxis_SPT/ic_reflibs/external_libs/GDKgates/inv01/@ncf.dir/inv01.ncf' closed.
+// Registration file '/home/software/mentor-2015/pyxis-10.4/v10.4_linux_x86_64/pyxis_home/mgc_icstd_lib/global.ncf' closed.
+// Registration file '/home/ece539/fall2021/cms156/Pyxis_SPT/ic_reflibs/tech_libs/generic13/symbols/nmos/@ncf.dir/nmos.ncf' closed.
+// Registration file '/home/ece539/fall2021/cms156/Pyxis_SPT/ic_reflibs/tech_libs/generic13/symbols/pmos/@ncf.dir/pmos.ncf' closed.
+// Parsing file '/home/software/mentor-2015/pyxis-10.4/v10.4_linux_x86_64/pyxis_home/mgc_icstd_lib/global.ncf' succeeded.
+// Registration file '/home/software/mentor-2015/pyxis-10.4/v10.4_linux_x86_64/pyxis_home/mgc_icstd_lib/global.ncf' closed.
+// Parsing file '/home/software/mentor-2015/pyxis-10.4/v10.4_linux_x86_64/pyxis_home/mgc_icstd_lib/global.ncf' succeeded.
+// Registration file '/home/software/mentor-2015/pyxis-10.4/v10.4_linux_x86_64/pyxis_home/mgc_icstd_lib/global.ncf' closed.
+// Parsing file '/home/ece539/fall2021/cms156/Pyxis_SPT/ic_reflibs/external_libs/GDKgates/inv01/@ncf.dir/inv01.ncf' succeeded.
+// Parsing file '/home/software/mentor-2015/pyxis-10.4/v10.4_linux_x86_64/pyxis_home/mgc_icstd_lib/global.ncf' succeeded.
+//  Invocation args:  -check -upper -ground_nodes:GROUND -eldo -o $PROJ/ringosc/rlc/default/netlist.spi -log /home/ece539/fall2021/cms156/Pyxis_SPT/PROJ/ringosc/rlc/default/netlist_transcript -quiet $PROJ/ringosc/rlc/default
+
+// **** Reading <$PROJ/ringosc/rlc/default> for ELDO netlist ****
+
+// Checking 2 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/home/ece539/fall2021/cms156/Pyxis_SPT/ic_reflibs/tech_libs/generic13/symbols/nmos/@ncf.dir/nmos.ncf' succeeded.
+// Parsing file '/home/ece539/fall2021/cms156/Pyxis_SPT/ic_reflibs/tech_libs/generic13/symbols/pmos/@ncf.dir/pmos.ncf' succeeded.
+// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
+//       are being scanned to create the pin names for the top level subckt.
+Processing [$PROJ/ringosc/rlc] [rlc/rlc] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/INV011'
+Processing [$GDKGATES/inv01] [inv01/inv01] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/INV013'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/INV012'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/INV015'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/INV014'
+ COMPONENT [$GDKGATES/inv01] CELL [$GDKGATES/inv01]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/inv01] CELL [$GDKGATES/inv01]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+Primitive [$GENERIC13/symbols/pmos] [pmos/pmos] [ELDOSPICE=M] (NCF entry line: 19 file: $GENERIC13/symbols/pmos/@ncf.dir/pmos.ncf)
+Primitive [$GENERIC13/symbols/nmos] [nmos/nmos] [ELDOSPICE=M] (NCF entry line: 19 file: $GENERIC13/symbols/nmos/@ncf.dir/nmos.ncf)
+Primitive [$MGC_IC_SOURCES_LIB/dc_v_source] [dc_v_source/dc_v_source] [SPICE=V] (NCF entry line: 565 file: $NCF_GLOBAL)
+Primitive [$MGC_IC_DEVICE_LIB/ideal_resistor] [ideal_resistor/ideal_resistor] [SPICE=R] (NCF entry line: 72 file: $NCF_GLOBAL) (NCF entry line: 77 file: $NCF_GLOBAL)
+Primitive [$MGC_IC_DEVICE_LIB/ideal_capacitor] [ideal_capacitor/ideal_capacitor] [SPICE=C] (NCF entry line: 72 file: $NCF_GLOBAL) (NCF entry line: 126 file: $NCF_GLOBAL)
+Primitive [$MGC_IC_DEVICE_LIB/inductor] [inductor/inductor] [SPICE=L] (NCF entry line: 72 file: $NCF_GLOBAL) (NCF entry line: 243 file: $NCF_GLOBAL)
+
+**** Writing <$PROJ/ringosc/rlc/default> netlist for ELDO ****
+
+Number of cells: 8
+Number of primitive instances: 15
+
+Done...

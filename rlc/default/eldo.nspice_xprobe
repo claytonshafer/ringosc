@@ -1,0 +1,82 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VDD VDD
+   VSS VSS
+   ground GROUND
+End Globals
+
+Cell PMOS
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell NMOS
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell INV01
+   Pin Y Y
+   Pin A A
+   Pin VDD VDD
+   Pin VSS VSS
+   Net Y Y
+   Net A A
+   Net VDD_esc1 VDD_ESC1
+   Net VSS_esc2 VSS_ESC2
+   Inst MP1 MP1 PMOS
+   Inst MN1 MN1 NMOS
+End Cell
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell IDEAL_RESISTOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell IDEAL_CAPACITOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell INDUCTOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell #top#
+   Pin OUT OUT
+   Net N$64 N$64
+   Net N$69 N$69
+   Net N$70 N$70
+   Net N$71 N$71
+   Net N$55 N$55
+   Net N$13 N$13
+   Net OUT OUT
+   Global VDD VDD
+   Global VSS VSS
+   Global ground GROUND
+   Inst INV014 X_INV014 INV01
+   Inst INV015 X_INV015 INV01
+   Inst INV012 X_INV012 INV01
+   Inst INV013 X_INV013 INV01
+   Inst INV011 X_INV011 INV01
+   Inst V1 V1 DC_V_SOURCE
+   Inst V2 V2 DC_V_SOURCE
+   Inst R1 R1 IDEAL_RESISTOR
+   Inst C1 C1 IDEAL_CAPACITOR
+   Inst L1 L1 INDUCTOR
+End Cell
+

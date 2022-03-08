@@ -1,0 +1,30 @@
+* Component: $PROJ/ringosc/rlc Viewpoint: default
+
+.INCLUDE "$PROJ/ringosc/rlc/default/netlist.spi"
+.INCLUDE "$GENERIC13/models/include_all"
+.OPTION AEX
+.OPTION ENGNOT
+.OPTION LIMPROBE=10000.0
+.OPTION NOASCII
+
+* - Analysis Setup - DCOP
+.OPTION PROBEOP2
+.OP
+
+* - Analysis Setup - Trans
+.TRAN 0 100n UIC
+
+* --- Global Outputs
+.PROBE V SG
+
+* --- Params
+.TEMP 27.0
+
+* --- Libsetup
+.LIB KEY=MOS "$GENERIC13/models/lib.eldo" TT
+.LIB KEY=MOS_33 "$GENERIC13/models/lib.eldo" TT_33
+.LIB KEY=MOS_lvt "$GENERIC13/models/lib.eldo" TT_lvt
+.LIB KEY=MOS_hvt "$GENERIC13/models/lib.eldo" TT_hvt
+.LIB KEY=BIP "$GENERIC13/models/lib.eldo" TT_BIP
+.LIB KEY=RES "$GENERIC13/models/lib.eldo" TT_RES
+.LIB KEY=CAPS "$GENERIC13/models/lib.eldo" CAPS

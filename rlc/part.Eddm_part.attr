@@ -1,0 +1,11 @@
+A 5 u Eddm_part 622631cbf268.03.0a.ec.43.56.00.67.bf 2 2 1 0
+V v 1 1 622631cbf268.03.0a.ec.43.56.01.67.bf
+F f 1 "part.part_1"
+V v 2 1 622631cc6266.03.0a.ec.43.56.00.67.bf
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PROJ/ringosc/rlc/schematic" 1 mgc_schematic 62262dd28f26.03.0a.ec.43.56.01.59.fd 62262dd28f26.03.0a.ec.43.56.00.59.fd
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PROJ/ringosc/rlc/schematic" 1 mgc_schematic 62262dd28f26.03.0a.ec.43.56.01.59.fd 62262dd28f26.03.0a.ec.43.56.00.59.fd

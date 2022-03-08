@@ -1,0 +1,32 @@
+//###########################################################
+//# EZwave - Saved Window File
+//# Monday, March 7, 2022 at 6:17:43 PM EST
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+SET DOFILE VERSION 2.1
+
+// ===== Open the window =====
+add workspace -name Workspace1 -active
+open window -position 0 0 -size 833 650 -divider 0.85
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <rlc_default/TRAN>V(OUT) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 511
+
+// ===== Set X-axis data units =====
+set user scale Time 1.0 s -axis X
+
+// ===== Set X-axis min/max extents =====
+set axis properties -axis X -min 3.888628762541806E-9 -max 4.319397993311037E-9
+
+// ====== Create the cursors, markers and measurements =====
+
+set active workspace Workspace1

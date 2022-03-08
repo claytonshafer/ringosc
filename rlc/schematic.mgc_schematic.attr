@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 62262dd28f26.03.0a.ec.43.56.00.59.fd 27 2 1 0
+V v 25 1 6227c8861b3e.03.0a.ec.43.56.00.35.5c
+F o 0 ""
+V v 26 1 6227c8c328f6.03.0a.ec.43.56.00.35.5c
+F o 0 ""
+V v 27 1 6227cbf5461d.03.0a.ec.43.56.00.35.5c
+F o 0 ""
+O 27
+R cspuv 0 "$PROJ/ringosc/rlc/schematic/sheet1" 27 mgc_sheet 6227cbf53ecf.03.0a.ec.43.56.00.35.5c 62262dd2a8aa.03.0a.ec.43.56.00.59.fd
+O 26
+R cspuv 0 "$PROJ/ringosc/rlc/schematic/sheet1" 26 mgc_sheet 6227c8c321f1.03.0a.ec.43.56.00.35.5c 62262dd2a8aa.03.0a.ec.43.56.00.59.fd
+O 25
+R cspuv 0 "$PROJ/ringosc/rlc/schematic/sheet1" 25 mgc_sheet 6227c8861455.03.0a.ec.43.56.00.35.5c 62262dd2a8aa.03.0a.ec.43.56.00.59.fd
